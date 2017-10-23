@@ -67,4 +67,4 @@ echo '
 sudo ln -s $nginx_file /etc/nginx/sites-enabled/
 sudo service nginx restart
 echo 'Houston, estamos listos para despegar. Solo abre http://'$IPADR
-echo 'En caso de cualquier problema, contacte a : http://odooperu.pe/page/website.contactus'
+echo 'En caso de cualquier problema, contacte a : http://microchyf.com'
