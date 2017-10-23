@@ -66,5 +66,7 @@ echo '
 }' >> $nginx_file
 sudo ln -s $nginx_file /etc/nginx/sites-enabled/
 sudo service nginx restart
+rm -R /etc/nginx/sites-available/default
+rm -R /etc/nginx/sites-enabled/default
 echo 'Houston, estamos listos para despegar. Solo abre http://'$IPADR
 echo 'En caso de cualquier problema, contacte a : http://microchyf.com'
